@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* GLOBAL */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+    text-align: justify;
+}
+
+.destaque {
+    font-weight: bold;
+    color: #1A5C38;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link::after {
+    content: " 🔗";
+}
+
+/* HEADER */
+
+header {
+    background-image: linear-gradient(to bottom, #3BD27F, #1A5C38);
+    padding: 20px 5px 5px 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+nav#menu {
+    margin-top: 32px;
+}
+
+nav#menu > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+nav#menu > a:hover{
+    background-color: #3BD27F;
+    color: #1A5C38;
+}
+
+/* MAIN */
+
+main {
+    background-color: white;
+    width: 850px;
+    margin: 0px auto 25px auto;
+    padding: 10px 0px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+main > h1 {
+    margin-top: 0px;
+}
+
+.titulo {
+    font-family: 'idroid', sans-serif;
+    color: #1A5C38;
+    margin: 15px;
+}
+
+main > p {
+    margin: 15px;
+    text-indent: 30px;
+}
+
+main > h2 {
+    background-image: linear-gradient(to right, rgb(59, 210, 127, 0.5), white);
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+/* SECTION */
+
+section > article {
+    background-color: rgb(132, 225, 173, 0.5);
+    margin: 0px 15px;
+    padding: 15px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+section > p {
+    background-color: #2FA866;
+    color: white;
+    font-weight: bold;
+    margin: 16px 15px 0px 15px;
+    padding: 15px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+article > p {
+    text-indent: 30px;
+}   
+
+.container {
+    display: flex;
+    gap: 160px;
+}
+
+.coluna > a {
+    color: black;
+    text-decoration: none;
+}
+
+.coluna > a > span {
+    text-decoration: underline;
+}
+
+.coluna > a::before {
+    content: "✔ ";
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1A5C38;
+    padding: 5px;
+}
+
+footer > p {
+    margin: 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: lighter;
+    font-size: small;
+}
+
+footer > p > span {
+    font-weight: bold;
+    color: white;
+}
+
+/* WIDTH 900px */
+
+@media (max-width: 900px) {
+    main {
+        width: 95%;
+    }
+
+    .container {
+        gap: 10px;
+    }
+}
