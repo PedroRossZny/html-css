@@ -2,6 +2,8 @@
 
 My exercises and challenges from the HTML5 and CSS3 course by [Curso em Vídeo](https://www.cursoemvideo.com/), taught by Gustavo Guanabara: 27 class exercises, 15 challenges and a few extra pages and projects, from a first "Olá, Mundo!" page to Flexbox, Grid and media queries.
 
+**Live pages:** [pedrorosszny.github.io/html-css](https://pedrorosszny.github.io/html-css/), with a list of every exercise and challenge.
+
 The pages are in Brazilian Portuguese, like the course.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
@@ -9,7 +11,7 @@ The pages are in Brazilian Portuguese, like the course.
 
 ## Highlights
 
-| Challenge 010: tech curiosities | Challenge 012: Cordel Moderno | Social media project |
+| [Challenge 010: tech curiosities](https://pedrorosszny.github.io/html-css/desafios/D010/) | [Challenge 012: Cordel Moderno](https://pedrorosszny.github.io/html-css/desafios/D012/) | [Social media project](https://pedrorosszny.github.io/html-css/outros/projeto-social/) |
 |---|---|---|
 | <img src="docs/screenshots/d010.jpg" alt="Curiosidades de Tecnologia page: green header with a menu, and an article about the history of the Android mascot with drawings of four early robot versions" width="300"> | <img src="docs/screenshots/d012.jpg" alt="Cordel Moderno page: a black header with the title in large bold letters and the poem's lines below in a handwritten font" width="300"> | <img src="docs/screenshots/social.jpg" alt="Social media project: a phone mockup on a wooden background, with round icons on the right for home, YouTube, GitHub, Instagram, Twitter and Facebook" width="300"> |
 
@@ -51,7 +53,7 @@ Second versions of some challenges and lessons (`desafio-10` adds a responsive p
 
 ## Running
 
-The pages are plain HTML and CSS. Open any `index.html` in a browser, or serve the folder to follow links between pages:
+The pages are plain HTML and CSS, published with GitHub Pages from the `main` branch. [`index.html`](index.html) at the root lists every page. To run them locally, open any file in a browser, or serve the folder to follow links between pages:
 
 ```bash
 python3 -m http.server 8080
